@@ -18,5 +18,12 @@ int main(){
 
     cout << "Your BMI is " << fixed << setprecision(1) << bmi << endl;
     cout << "Your standard weight is " << stdweight << endl;
+    if (bmi >= 25){
+        cout << "You have too much weight."<< endl;
+    }else if (bmi <= 18.5){
+        cout << "You have too little weight."<< endl;
+    }else{
+        cout << "You have average weight."<< endl;
+    }
     return 0;
 }
