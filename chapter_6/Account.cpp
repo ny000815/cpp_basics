@@ -10,7 +10,7 @@ int Account::getBalance(){
     return this->balance;
 }
 void Account::setBalance(int balance){
-    if (balance >= 0) this->account = balance;
+    if (balance >= 0) this->balance = balance;
 }
 Account::Account(string id, int balance){
     this->id = id;

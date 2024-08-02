@@ -6,6 +6,15 @@ using namespace std;
 int main(){
     Account act("1234567", 88888);
 
-    cout << "id is " << act.getId << endl;
-    cout << "balance is" << act.getBalance << endl;
+    cout << "id is " << act.getId() << endl;
+    cout << "balance is " << act.getBalance() << endl;
+
+    act.setBalance(9999999);
+    cout << "id is " << act.getId() << endl;
+    cout << "balance is " << act.getBalance() << endl;
+
+    act.setBalance(-12);
+    cout << "id is " << act.getId() << endl;
+    cout << "balance is " << act.getBalance() << endl;
+
 }
