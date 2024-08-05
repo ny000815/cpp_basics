@@ -8,4 +8,6 @@ class Point{
         double getY();
         Point operator+(const Point &p);
         Point operator-(const Point &p);
+        Point operator==(const Point &p);
+        Point operator!=(const Point &p);
 };
